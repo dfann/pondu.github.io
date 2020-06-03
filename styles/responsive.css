@@ -1,0 +1,142 @@
+/*We use bootstrap media queries for most of our responsive designs*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+        /*
+    #iphone-app-icon img{
+        width : 365px;
+        height : auto;
+    }
+    */
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    /*Sitewide Styles*/
+        h1{
+            font-size :4.5em;
+        }
+
+        h2{
+            font-size: 2em;
+        }
+
+        p{
+            font-size : 1.5em;
+        }
+
+        li{
+            font-size : 1.5em;
+        }
+
+        figcaption{
+            font-size : 1.5em;
+        }
+
+        .no-bottom-padding{
+                padding-bottom: 0%;
+        }
+    /*End Sitewide Styles*/
+
+    /*Home Styles*/
+
+        #home h1{
+            font-size: 2em;
+            position: relative;
+            left: -8%;
+        }
+
+        #home .img-container{
+            margin-right: 2%;
+            float: left;
+        }
+
+        #home .app-store{
+            margin-top: 15%;
+            float: right;
+        }
+
+        #home ul{
+            padding-left : 58%;
+        }
+
+
+        .home-content{
+            margin-top : 5%;
+        }
+    /*End Home Styles*/
+
+    /*About Styles*/
+
+        .iphone-black{
+            float: right;
+        }
+
+        #about h1{
+            margin-bottom: 5%
+        }
+    /*End About Styles*/
+
+    /*Feature Styles*/
+    #features img{
+       box-shadow: 10px 10px 5px #888888;
+    }
+
+        .left-col{
+            float : right;
+        }
+
+        .right-col{
+            float : left;
+        }
+
+        #features figure{
+            margin-top: 5%;
+        }
+
+        #features figcaption{
+            text-align: left;
+        }
+
+        #features-header{
+            padding-left: 29%;
+            padding-right : 29%;
+        }
+
+    #features-header h1, #features-header hr,#features-header h2{
+        margin: 0px;
+    }
+
+    #features-header hr{
+        border: 2px solid black;
+    }
+
+        .feature-wrap{
+            text-align: center;
+        }
+
+        .feature-wrap div{
+            display: inline-block;
+        }
+    /*End Feature Styles*/
+
+    /*Design Styles*/
+        #design{
+            text-align: left;
+        }
+
+        #design p{
+            text-align: left;
+            padding-right: 30%;
+        }
+    /*End Design Styles*/
+
+
+}

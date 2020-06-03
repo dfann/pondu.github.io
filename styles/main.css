@@ -1,0 +1,88 @@
+/*BrowseHappy Styles*/
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/*End BrowseHappy Styles*/
+
+/*Sitewide Styles*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: black
+}
+
+section{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer{
+    padding-top: 2%;
+    vertical-align: text-bottom;
+}
+
+/*End Sitewide Styles*/
+
+
+/*Nav Styles*/
+
+
+/*End Nav Styles*/
+
+
+/*Home Styles*/
+#home{
+    background-color: rgb(255, 255,255);
+}
+/*End Home Styles*/
+
+
+/*About Styles */
+#about{
+    background-color: rgb(235, 234,234);
+}
+/*End About Styles*/
+
+/*Feature Styles*/
+#features{
+    background-color: rgb(201, 197,197);
+    text-align: center;
+}
+/*End Feature Styles*/
+
+
+/*Design Styles*/
+    #design{
+        background-color: rgb(92, 88,88);
+    }
+/*End Design Styles*/
+
+
+/*Question Styles*/
+
+#question{
+    background-color: rgb(52, 48,48);
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+#question h2{
+    margin-bottom: 5%;
+}
+/*End Question Styles*/
+
+
+/*Footer Styles*/
+
+footer{
+    background-color: rgb(92, 88,88);
+    text-align: center;
+}
+
+.copy-right{
+    margin-top: 38px;
+}
+/*End Footer Styles*/
